@@ -33,6 +33,8 @@ let getLocation = async (ip) => {
           City: ${json.city}
           District: ${json.district}
           Lat / Long: (${json.latitude}, ${json.longitude})
+          Isp: (${json.isp})
+          Zipcode: (${json.zipcode})
           ---------------------
           `;
       console.log(output);
